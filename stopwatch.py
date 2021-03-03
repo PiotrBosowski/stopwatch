@@ -1,5 +1,5 @@
 from datetime import datetime
-from utils.paint_it import PaintIt
+from modules.paint_it.paint_it import PaintIt
 
 
 class Stopwatch(object):
@@ -78,7 +78,7 @@ class Stopwatch(object):
 
     def __output(self, text, color='unchanged'):
         """
-        Formats input text, add timestamp and sends the output to sdtio
+        Formats input text, add timestamp and sends the output to stdio
         and log-saver
         :param text: text to be logged
         """
