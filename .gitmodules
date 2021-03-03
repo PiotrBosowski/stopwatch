@@ -1,0 +1,3 @@
+[submodule "modules/paint_it"]
+	path = modules/paint_it
+	url = https://github.com/piotrbosowski/paint-it
